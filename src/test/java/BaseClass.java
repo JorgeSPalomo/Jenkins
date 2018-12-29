@@ -9,7 +9,7 @@ public class BaseClass {
 	public void Jorge() {
 
 		System.setProperty("webdriver.chrome.driver",
-				"src/test/resources/Driver/chromedriver.exe");
+				"C:\\Users\\Jorge\\eclipse-workspace\\MavenTestNG\\src\\test\\resources\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		String url = "https://www.google.com/";
 		driver.get(url);
@@ -19,8 +19,8 @@ public class BaseClass {
 
 		driver.quit();
 	}
-	
-	public static void main(String[]args) {
-		
+
+	public static void main(String[] args) {
+
 	}
 }
