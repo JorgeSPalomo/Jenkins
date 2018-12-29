@@ -20,7 +20,4 @@ public class BaseClass {
 		driver.quit();
 	}
 
-	public static void main(String[] args) {
-
-	}
 }
