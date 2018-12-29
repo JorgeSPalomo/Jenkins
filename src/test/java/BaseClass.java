@@ -9,7 +9,7 @@ public class BaseClass {
 	public void Jorge() {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Jorge\\eclipse-workspace\\MavenTestNG\\src\\test\\resources\\Driver\\chromedriver.exe");
+				"src\\test\\resources\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		String url = "https://www.google.com/";
 		driver.get(url);
